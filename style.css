@@ -31,7 +31,10 @@ body
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 20px;
+    border-radius: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #019f55;
+    transition: 1s;
 }
 
 .container h1 span
@@ -68,6 +71,14 @@ body
     border: solid black;
 }
 
+.display input
+{
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #000;
+}
 .container button:hover
 {
     background-color: #019f55;
